@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-image: url(../Imagenes/My\ project-1.png);
+}
+
+.form-registro {
+    width: 25%;
+    min-width: 320px;
+    border: 1px solid rgb(201, 201, 235);
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #ffffff67;
+}
+#titulo-form {
+    padding: 0 20px;
+}
+h2 {
+    border-bottom: 1px solid rgb(179, 169, 169);
+    padding: 15px 0;
+    width: 80%;
+}
+
+form .row {
+    padding: 5px 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+.row input {
+    border: 1px solid rgba(0, 0, 255, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 97%;
+    padding: 5px 5px;
+}
+#buttons {
+    padding: 20px;
+    position: relative;
+}
+.material-symbols-outlined {
+    margin-right: 10px;
+}
+#registrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 15px 15px;
+    background-color: #227ef7;
+    color: #ffffff;
+    text-decoration: none;
+}
+#registrar:hover {
+    cursor: pointer;
+}
